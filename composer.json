@@ -1,0 +1,17 @@
+{
+    "name": "ruanfelipe/buscador-cursos",
+    "description": "projeto que busca os cursos no site da alura",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Ruanfelipe\\BuscadorCursos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "RuanFelipe",
+            "email": "ruansilva6721@gmail.com"
+        }
+    ],
+    "require": {}
+}
