@@ -13,5 +13,7 @@
             "email": "ruansilva6721@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "guzzlehttp/guzzle": "~7.3"
+    }
 }
