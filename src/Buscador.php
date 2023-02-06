@@ -14,7 +14,7 @@ class Buscador{
         $this->crawler = $crawler;
     }
 
-    public function buscar(String $url){
+    public function buscarText(String $url){
         $resposta = $this->httpClient->request('GET',$url, [
             'verify' => false
         ]);

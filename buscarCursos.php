@@ -15,5 +15,5 @@ $crawler = new Crawler();
 $buscador = new Buscador($client, $crawler);
 
 
-$buscador->buscar('busca?query=php'); 
+$buscador->buscarText('busca?query=php'); 
 
